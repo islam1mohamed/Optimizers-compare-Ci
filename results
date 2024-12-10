@@ -7,6 +7,7 @@ Nadam: {'Training Time': 69.71335911750793, 'Validation Accuracy': 0.30370000004
 Exponential Decay: {'Training Time': 29.060489892959595, 'Validation Accuracy': 0.42480000853538513}
 Step Decay: {'Training Time': 27.240485906600952, 'Validation Accuracy': 0.42320001125335693}
 
+
 ------------------------------ epoch = 20 n=0.001
 SGD with Warm Restarts: {'Training Time': 131.73865866661072, 'Validation Accuracy': 0.4406999945640564}
 SGD : {'Training Time': 127.7880654335022, 'Validation Accuracy': 0.38519999384880066}
@@ -14,7 +15,7 @@ NAG: {'Training Time': 209.39301753044128, 'Validation Accuracy': 0.410100013017
 RMSProp: {'Training Time': 199.79778265953064, 'Validation Accuracy': 0.32499998807907104}
 Nadam: {'Training Time': 266.03923320770264, 'Validation Accuracy': 0.32269999384880066}
 Exponential Decay: {'Training Time': 104.84457159042358, 'Validation Accuracy': 0.48840001225471497}
-Step Decay: {'Training Time': 105.19577598571777, 'Validation Accuracy': 0.4900999963283539}
+Step Decay: {'Training Time': 105.19577598571777, 'Validation Accuracy': 0.4595099963283539}
 --------------------------------
 etta_nadam = 0.0001
 RMSProp: {'Training Time': 210.65734028816223, 'Validation Accuracy': 0.4724000096321106}
@@ -22,17 +23,43 @@ Nadam: {'Training Time': 271.1595494747162, 'Validation Accuracy': 0.46660000085
 --------------------------------
 etta values SGD , NAG =0.01  , etta values RMSProp , Nadam =5e-05
 RMSProp: {'Training Time': 208.99666619300842, 'Validation Accuracy': 0.48919999599456787}
-Nadam: {'Training Time': 281.2092504501343, 'Validation Accuracy': 0.4853000044822693}
+Nadam: {'Training Time': 281.2092504501343, 'Validation Accuracy': 0.4753000044822693}
+
 --------------------------------
 etta values SGD , NAG =0.01  , etta values RMSProp , Nadam =5e-05
-SGD with Warm Restarts: {'Training Time': 131.73865866661072, 'Validation Accuracy': 0.4406999945640564}
-SGD : {'Training Time': 127.7880654335022, 'Validation Accuracy': 0.38519999384880066}
-NAG: {'Training Time': 218.10229396820068, 'Validation Accuracy': 0.4041000008583069}
-RMSProp: {'Training Time': 203.69202494621277, 'Validation Accuracy': 0.49070000648498535}
-Nadam: {'Training Time': 268.05085706710815, 'Validation Accuracy': 0.48910000920295715}
-Exponential Decay: {'Training Time': 106.73207592964172, 'Validation Accuracy': 0.49149999022483826}
-Step Decay: {'Training Time': 109.25937294960022, 'Validation Accuracy': 0.4950000047683716}
+SGD with Warm Restarts: {'Training Time': 136.41536116600037, 'Validation Accuracy': 0.43779999017715454}
+SGD: {'Training Time': 138.2006070613861, 'Validation Accuracy': 0.3905999958515167}
+NAG: {'Training Time': 224.4170253276825, 'Validation Accuracy': 0.40610000491142273}
+RMSProp: {'Training Time': 204.01842403411865, 'Validation Accuracy': 0.4862000048160553}
+Nadam: {'Training Time': 276.85442328453064, 'Validation Accuracy': 0.4909999966621399}
+Exponential Decay: {'Training Time': 110.19165372848511, 'Validation Accuracy': 0.4864000082015991}
+Step Decay: {'Training Time': 125.4891848564148, 'Validation Accuracy': 0.4641999900341034}
 --------------------------------
-
-
-
+etta values SGD , NAG =0.005  , etta values RMSProp , Nadam =1e-05
+SGD with Warm Restarts: {'Training Time': 132.26587057113647, 'Validation Accuracy': 0.44020000100135803}
+SGD: {'Training Time': 133.12632775306702, 'Validation Accuracy': 0.4359000027179718}
+NAG: {'Training Time': 209.40039134025574, 'Validation Accuracy': 0.45179998874664307}
+RMSProp: {'Training Time': 204.34492683410645, 'Validation Accuracy': 0.4440999925136566}
+Nadam: {'Training Time': 292.7903754711151, 'Validation Accuracy': 0.44589999318122864}
+Exponential Decay: {'Training Time': 107.96604514122009, 'Validation Accuracy': 0.48429998755455017}
+Step Decay: {'Training Time': 122.83598041534424, 'Validation Accuracy': 0.46309998631477356}
+--------------------------------
+etta values SGD , NAG =0.005  , etta values RMSProp , Nadam =2e-05
+SGD with Warm Restarts: {'Training Time': 131.85924100875854, 'Validation Accuracy': 0.43459999561309814}
+SGD: {'Training Time': 132.28130650520325, 'Validation Accuracy': 0.4397999942302704}
+NAG: {'Training Time': 213.01182293891907, 'Validation Accuracy': 0.4458000063896179}
+RMSProp: {'Training Time': 201.65649366378784, 'Validation Accuracy': 0.46860000491142273}
+Nadam: {'Training Time': 270.82168340682983, 'Validation Accuracy': 0.46939998865127563}
+Exponential Decay: {'Training Time': 106.89188385009766, 'Validation Accuracy': 0.4837999939918518}
+Step Decay: {'Training Time': 124.35661697387695, 'Validation Accuracy': 0.4595000147819519}
+--------------------------------
+etta values SGD , NAG =0.005  , etta values RMSProp , Nadam =5e-05
+etta values SGD , NAG =0.005  , etta values RMSProp , Nadam =5e-05
+SGD with Warm Restarts: {'Training Time': 139.79965949058533, 'Validation Accuracy': 0.46050000190734863}
+SGD: {'Training Time': 137.5232195854187, 'Validation Accuracy': 0.45210000872612}
+NAG: {'Training Time': 229.76665830612183, 'Validation Accuracy': 0.44850000739097595}
+RMSProp: {'Training Time': 202.01910662651062, 'Validation Accuracy': 0.4903999865055084}
+Nadam: {'Training Time': 271.8135018348694, 'Validation Accuracy': 0.4869000017642975}
+Exponential Decay: {'Training Time': 106.64873266220093, 'Validation Accuracy': 0.4896000027656555}
+Step Decay: {'Training Time': 113.56298112869263, 'Validation Accuracy': 0.45750001072883606}
+--------------------------------
